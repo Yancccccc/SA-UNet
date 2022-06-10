@@ -1,2 +1,3 @@
 # SA-UNet
-The code and data are being sorted and uploaded gradually
+The code is being sorted and uploaded gradually
+The data is available at  https://pan.baidu.com/s/1Qf8ew4l8eqgpgc3glBJACg?pwd=6a44
