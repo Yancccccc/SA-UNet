@@ -199,7 +199,7 @@ if __name__ == '__main__':
     dataset_sizes = {'img': train_Data.__len__(), 'val': val_Data.__len__()}
 
     config_vit = config.get_CTranS_config()
-    net = U_Net_ASPP_SAM_skip_batchnormal.Unet(11,8)
+    net = SA_UNet.Unet(11,8)
     net = net.cuda()
 
     criterion = nn.CrossEntropyLoss(ignore_index=0, weight=None, reduction="mean")
